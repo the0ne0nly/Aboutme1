@@ -1,0 +1,242 @@
+@font-face {
+    font-family:'tanpearl';
+    src: url('fonts/tan-pearl.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+}
+@font-face {
+    font-family:'Copyduck';
+    src: url('fonts/Copyduck.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+}
+@font-face {
+    font-family:'Honay';
+    src: url('fonts/Honya-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+}
+@font-face {
+    font-family:'Quick';
+    src: url('fonts/Quicksand_Light.otf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+}
+
+.navbar-light{
+    background-color: #ffced7;
+}
+.navbar{
+    height: 100px;
+    text-align: center;
+}
+.p-5{
+    color: #905615;
+}
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    padding:0;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#intro-example {
+    height: 400px;
+}
+
+
+
+
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+.img-fluid{
+    border: 4px solid #905615;
+    background-color: floralwhite;
+    padding: 50px 50px;
+    background-repeat: no-repeat;
+
+
+
+
+}
+.carousel {
+    max-height: 600px;
+    overflow: hidden;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+
+
+
+
+}
+.p-5{
+    font-family: "Abril Fatface", serif;
+    font-weight: 80;
+    font-style: normal;
+    background-color: #FFF1D6;
+    padding: 80px 80px;
+    border: 8px solid floralwhite;
+}
+.button-description{
+    color:  #905615;
+    position: center;
+    width: 90%;
+    bottom: -90px;
+    transform: translateY(-10%);
+    text-align: center;
+    border: 4px solid #905615;
+    background-color: floralwhite;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+.custom-button{
+
+
+
+
+    transform: translateY(-150%);
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top:  auto;
+    width: 60%;
+    padding: 10px 15px;
+    border: 2px solid pink;
+    border-radius: 50%;
+    background-color: blue;
+    color: black;
+}
+
+
+.button {
+    background-color: #f4a3b0; /* Green */
+    border: none;
+    color: #2c2c2c;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button5 {border-radius: 100%;}
+
+.jumbotron{
+    padding: 1rem;
+    border-radius:0;
+    background: #ffced7;
+}
+.jumbotron2{
+    padding: 1rem;
+    border-radius:0;
+    background: #fff2f5;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0
+}
+.btn:hover {
+    background-color: #FFC0CBFF;
+}
+.btn {
+
+
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    text-align: center;
+}
+.button{
+color:palevioletred ;
+}
+.jumbotron1{
+    padding: 1rem;
+    border-radius:0;
+    background: #ffe9ed;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background: white;
+    color: #f892a0;
+}
+.fa-google {
+    background: white;
+    color: #f892a0;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 5px;
+}
+.grid-item {
+    background-color: white;
+    border: 5px solid #ffe9ed;
+    padding: 20px;
+    font-size: 30px;
+
+    text-align: center;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: palevioletred;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #ffe9ed;
+    padding: 20px;
+}
